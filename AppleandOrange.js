@@ -30,3 +30,12 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
   console.log(appleCount);
   console.log(orangeCount);
 }
+
+const s = 7;
+const t = 11;
+const a = 3;
+const b = 14;
+const apples = [-2, 4, 6];
+const oranges = [3, -2, -5];
+
+countApplesAndOranges(s, t, a, b, apples, oranges);
